@@ -1,0 +1,70 @@
+.card {
+  width: 15rem;
+  cursor: pointer;
+  border: 0px solid black;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  transition: all 2.25s;
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 207, 84) 11.2%,
+    rgb(255, 158, 27) 91.1%
+  );
+  padding: 5em;
+  transform-style: preserve-3d;
+  min-height: 15rem;
+  font-weight: bold;
+  font-family: "Sf Pro Display";
+  border-radius: 50%;
+  box-shadow: 3px 1px 11px rgba(0, 0, 0, 0.5);
+
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.card:hover .content {
+  transform: rotateY(0.5turn);
+  box-shadow: 3px 1px 11px rgba(0, 0, 0, 0);
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  transform: translateZ(5rem);
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  transform: translateZ(2rem);
+}
+
+.back {
+  transform: rotateY(0.5turn);
+  background-color: #f2f2f2;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0px;
+  line-height: 20px;
+}
+
+.description {
+  transform: translateZ(3rem);
+}

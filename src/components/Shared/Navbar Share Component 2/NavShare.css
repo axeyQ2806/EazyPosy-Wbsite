@@ -1,0 +1,82 @@
+.nav-share-card {
+  display: flex;
+  height: 50px;
+  width: 270px;
+  justify-content: space-between;
+}
+
+.nav-share-card svg {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.nav-share-card .social-link1,
+.nav-share-card .social-link2,
+.nav-share-card .social-link3,
+.nav-share-card .social-link5,
+.nav-share-card .social-link4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
+}
+
+.nav-share-card svg {
+  transform: scale(1);
+}
+
+.nav-share-card .social-link1:hover {
+  background-color: #e1306c;
+  animation: bounce_613 0.4s linear;
+}
+
+.nav-share-card .social-link2:hover {
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
+}
+
+.nav-share-card .social-link3:hover {
+  background-color: #db4437;
+  animation: bounce_613 0.4s linear;
+}
+
+.nav-share-card .social-link4:hover {
+  background-color: #1d4292;
+  animation: bounce_613 0.4s linear;
+}
+.nav-share-card .social-link5:hover {
+  background-color: green;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

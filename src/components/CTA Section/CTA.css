@@ -1,0 +1,23 @@
+.cta {
+  background: linear-gradient(259deg, #fff9d7 0%, #ffa200 100%) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  min-height: 70vh;
+  box-sizing: border-box;
+}
+.cta-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.cta-content h5 {
+  font-size: 25px;
+}
+.cta-content h6 {
+  font-size: 35px;
+  font-weight: 900;
+}

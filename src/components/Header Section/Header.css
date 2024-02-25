@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+  background: #f2f2f2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.nav-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-main-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}

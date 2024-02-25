@@ -1,0 +1,15 @@
+.navbar-component {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-component h6 {
+  font-size: 20px;
+}
+.navbar-comp_button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}

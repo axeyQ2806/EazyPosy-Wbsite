@@ -1,0 +1,30 @@
+.partner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 150px;
+  gap: 30px;
+}
+.partner p {
+  line-height: 30px;
+}
+.partner h6 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.logos-partner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo-wrapper {
+  padding: 15px 30px;
+  border: 1px solid #f2f2f2;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}

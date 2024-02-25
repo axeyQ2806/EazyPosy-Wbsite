@@ -1,0 +1,22 @@
+.prefeature {
+  padding: 50px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.prefeature h1 {
+  color: #202020;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 180px;
+  font-weight: 900;
+  letter-spacing: -0.3px;
+  line-height: 170px;
+}
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

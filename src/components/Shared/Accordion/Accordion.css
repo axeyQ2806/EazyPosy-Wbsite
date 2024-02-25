@@ -1,0 +1,32 @@
+.accordion {
+  --cui-accordion-border-color: transparent;
+  --cui-accordion-btn-icon: none;
+  --cui-accordion-btn-active-icon: none;
+  --cui-accordion-btn-focus-border-color: transparent;
+  --cui-accordion-btn-focus-box-shadow: none;
+  width: 45%;
+}
+.accordion-button {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 2px 26px 28px -21px rgba(0, 0, 0, 0.31);
+  border-bottom: 1px solid #ffa200;
+  transition: all 1s ease-in;
+  font-size: 1.5rem;
+}
+.accordion-button:not(.collapsed) {
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid transparent;
+  color: #ffa200;
+}
+.accordion-button:not(.collapsed) .accordion-item {
+  border-radius: 10px;
+  box-shadow: 2px 26px 28px -21px rgba(0, 0, 0, 0.31);
+}
+.accordion-button:not(.collapsed) .accordion-body {
+  border-radius: 0 0 10px 10px;
+  background: #fff;
+  line-height: 25px;
+  font-size: 18px;
+}
