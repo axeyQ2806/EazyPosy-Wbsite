@@ -56,24 +56,14 @@ const Footer = () => {
         </a>
       </div>
       <div className='footer-copyright'>
-        <p>
-          COPYRIGHT © 2024 - EazyPosy Infotech Pvt. Ltd., India •
-          <span>
-            <a> Privacy</a>
-          </span>{" "}
-          •
-          <span>
-            <a> Terms </a>
-          </span>
-          •
-          <span>
-            <a> Cancellation & Refund </a>
-          </span>
-          •
-          <span>
-            <a> Corporate Information</a>
-          </span>
-        </p>
+        <p>COPYRIGHT © 2024 - EazyPosy Infotech Pvt. Ltd., India •</p>
+        <a href='/privacy'> Privacy</a>
+        <p>•</p>
+        <a href='/terms'> Terms </a>
+        <p>•</p>
+        <a href='/cancellation&refund'> Cancellation & Refund </a>
+        <p>•</p>
+        <a> Corporate Information</a>
       </div>
     </footer>
   );

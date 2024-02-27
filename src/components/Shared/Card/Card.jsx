@@ -18,7 +18,6 @@ const Card = ({ cardTitle, cardDescription, icon }) => {
           start: "35% center",
           end: "70% center",
           scrub: true,
-          markers: true,
         },
       }
     );

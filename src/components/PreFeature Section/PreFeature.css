@@ -1,18 +1,28 @@
 .prefeature {
   padding: 50px 150px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
+}
+.prefeature-content {
+  font-family: "SF Pro Display";
 }
 .prefeature h1 {
   color: #202020;
   font-family: "Bebas Neue", Sans-serif;
-  font-size: 180px;
+  font-size: 70px;
   font-weight: 900;
-  letter-spacing: -0.3px;
-  line-height: 170px;
+  letter-spacing: 2px;
+  line-height: 72px;
+}
+.prefeature .pre-para {
+  text-align: left;
+  width: 100%;
+  font-size: 24px;
+  color: #ffa200;
+  line-height: 35px;
 }
 .card-holder {
   display: flex;

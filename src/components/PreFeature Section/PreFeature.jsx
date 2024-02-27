@@ -26,7 +26,16 @@ const PreFeature = () => {
   });
   return (
     <div className='prefeature'>
-      <h1>Four Core Areas for Restaurants to focus on</h1>
+      <div className='prefeature-content'>
+        <h1>
+          Empowering Restaurants: EazyPOSy’s Four Pillars Revolutionize Sales,
+          Management, Billing, and Ordering as Your Trusted Tech Partner.
+        </h1>
+        <p className='pre-para'>
+          These pillars encompass sales, management, billing, and seamless
+          ordering, ensuring restaurants thrive in today’s dynamic landscape.
+        </p>
+      </div>
 
       <div className='card-holder'>
         <Card
